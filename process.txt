@@ -1,0 +1,65 @@
+how you can build this rental app?
+
+collect required properties data.
+
+understand the functionalities which you need to implement in application.
+
+Like in this rental app, i need to implement filter functionaly based on 4 parameters.
+
+Location
+When
+Price
+Property Type
+
+How you build the user interface of application?
+
+Break whole application user interface into parts.
+
+Navbar
+== App Name with logo
+== 5 nav options Rent, Buy, Sell, Manage Property, Resources
+== Login and Signup button.
+
+Filter Panel
+
+    Heading = Search properties to rental, and Search with search bar dropdown
+
+    Filter options container = Location, When, Price, Property Type
+
+
+Nav options with dropdown
+Buttons
+Popular banner
+Heading
+
+Icons
+
+arrow dropdown = TfiArrowCircleDown
+calander = FaCalendarAlt
+Popular icons = HiOutlineSparkles
+heart = BiHeart
+bed = MdBed
+bathroom = BiBath
+size = BiArea
+arrow down = BiChevronDown
+logo = RiMailOpenFill
+
+What is the theme you should follow?
+
+Sign Up and Search Button background color - #7065f0
+
+Login Button text color = #7065f0
+
+Popular banner color = #7065f0
+
+icons color = #7065f0
+
+price text color = #7065f0
+
+location text color = #878b9a
+
+house name color = #333a54;
+
+app background color = #f6f7fc
+
+filter options container background color = #fefffe;

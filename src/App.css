@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  list-style: none;
+  padding: 15px 30px 15px 30px;
+  /* border:1px solid green; */
+  border-radius: 7px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: black
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav{
+  background-color: #fafbff;
+  flex-direction: row; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.logo{
+  width: 20%;
+  justify-content: center; 
+  padding-left: 30px;
+  align-items: center;
+}
+
+h1, h3{
+  margin:10px 0 10px 0;
+  padding: none;
+}
+
+.logo p{
+  display: flex;
+  /* justify-content: center;  */
+  padding-left: 30px;
+  align-items: center;
+  /* border:1px solid burlywood; */
+}
+
+.logo span{
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.nav-options {
+  width: 40%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.btn-container {
+  width: 30%;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  /* border: 1px solid orange; */
+}
+
+.button {
+  margin-left: 20px;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px; 
+  border-radius: 5px;
+  border: .5px solid #7065f0; 
+}
+
+.login-btn{
+  background-color: white;
+}
+
+.signup-btn{
+  background-color: #7065f0;
+  color:white;
+}
+
+a:hover li {
+  background-color: #e8e7f8;
+  color: #7065f0;
+}
+
+.filter-panel{
+  background-color: white;
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-option{
+  /* border:1px solid pink; */
+  /* width: 220px; */
+  /* flex: 1; */
+  /* margin-right: 10px; */
+  padding: 0 20px 0 0px;
+  /* background-color: red; */
+  /* border-right: 1px solid gray; */
+}
+
+.border{
+  height: 60px;
+  border:1px solid #e8e7f8;
+  /* width: 1px; */
+  background-color: #e8e7f8;
+  width: 1px;
+  margin-left: 40px;
+}
+
+.attribute{
+  /* border: 1px solid violet; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* width: 150px; */
+}
+
+.item-price{
+  color:#7065f0;
+  font-size: 30px;
+  font-weight: bold;
 }
