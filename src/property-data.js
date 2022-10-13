@@ -129,7 +129,7 @@ const property8 = {
     beds:4,
     bathrooms: 2,
     size:"6x6",
-    name:"Sharma's House",
+    name:"Mehta's House",
     city:"Texas",
     state: "USA"
 }
@@ -189,7 +189,7 @@ const property12 = {
     beds:4,
     bathrooms: 2,
     size:"10x9",
-    name:"The Beauty Place",
+    name:"The Lakes of Horizon",
     city:"California",
     state: "USA"
 }

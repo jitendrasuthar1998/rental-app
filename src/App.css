@@ -51,6 +51,8 @@ nav{
   display: flex;
   justify-content: center; 
   align-items: center;
+  padding:20px;
+  flex-wrap: wrap;
 }
 
 .logo{
@@ -65,11 +67,11 @@ h1, h3{
   padding: none;
 }
 
-.logo p{
+.logo{
   display: flex;
-  /* justify-content: center;  */
+  justify-content: flex-start; 
   padding-left: 30px;
-  align-items: center;
+  /* align-items: center; */
   /* border:1px solid burlywood; */
 }
 
@@ -85,6 +87,7 @@ h1, h3{
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid red; */
+  /* flex-wrap: wrap; */
 }
 
 .btn-container {
@@ -109,6 +112,11 @@ h1, h3{
   cursor: pointer;
 }
 
+.selected{
+  background-color:#7065f0;
+  color: white;
+}
+
 .login-btn:hover{
   background-color: #e8e7f8;
   color:#7065f0;
@@ -126,7 +134,7 @@ h1, h3{
   /* border: 1px solid red; */
 }
 
-a:hover li {
+li:hover {
   background-color: #e8e7f8;
   color: #7065f0;
 }
@@ -143,7 +151,8 @@ a:hover li {
 
 .filter-option{
   /* border:1px solid pink; */
-  width: 250px;
+  /* width: 250px; */
+  /* flex:0.8; */
   cursor: pointer;
   padding: 10px 20px 0px 0px;
 }
@@ -169,3 +178,31 @@ a:hover li {
   /* width: 150px; */
 }
 
+.property-item-container{
+  margin: 40px; 
+  display: grid; 
+  grid-template-columns:400px 400px 400px 400px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1800px) {
+  .property-item-container{
+    grid-template-columns:400px 400px 400px;
+  } 
+}
+
+@media screen and (max-width: 1400px) {
+  .property-item-container{
+    grid-template-columns:400px 400px;
+  } 
+}
+
+@media screen and (max-width: 900px) {
+  .property-item-container{
+    grid-template-columns:400px;
+  } 
+}
