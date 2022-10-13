@@ -1,0 +1,75 @@
+.property-item {
+    border: 1px solid blue;
+    width: 400px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.property-item img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.item-price{
+    color:#7065f0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+.item-price-para{
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.property-item .details-container{
+    padding: 10px;
+    background-color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.property-item .price-like-container{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: "center";
+    padding: 0px;
+}
+
+.property-item .property-item-border{
+    border: 1px solid #e8e7f8;
+    background-color: #e8e7f8;
+    width: 100%; 
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.heart-container{
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50px;
+    border: 1px solid #e8e7f8;
+    justify-content: center;
+    align-items:center; 
+    display: flex;
+}
+
+.property-attribute{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-left-radius: 7px; 
+    border-bottom-right-radius: 7px;
+    padding: 5px;
+}
+
+.attribute-icon{
+    margin-right: 5px; 
+}

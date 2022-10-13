@@ -11,6 +11,33 @@ li {
   justify-content: center;
   align-items: center;
   font-size: 18px;
+  /* width: 200px; */
+}
+
+.list-options {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  background-color: white;
+  /* border: 1px solid royalblue; */
+  transition: 0.5s ease;
+  /* margin-top: 3px; */
+  border-top: 1px solid grey;
+  border-radius: 7px;
+  box-shadow: inset#7065f0;
+  cursor: pointer;
+}
+
+.list-options li{
+  border-radius: 0px;
+}
+
+.list-options li:hover{
+  background-color: #e8e7f8;
+}
+
+nav li .down-icon{
+  margin-left: 5px;
 }
 
 a {
@@ -79,11 +106,24 @@ h1, h3{
 
 .login-btn{
   background-color: white;
+  cursor: pointer;
+}
+
+.login-btn:hover{
+  background-color: #e8e7f8;
+  color:#7065f0;
+  border: 0px;
 }
 
 .signup-btn{
   background-color: #7065f0;
   color:white;
+  cursor: pointer;
+}
+
+.signup-btn:hover{
+  background-color: blueviolet;
+  /* border: 1px solid red; */
 }
 
 a:hover li {
@@ -93,20 +133,23 @@ a:hover li {
 
 .filter-panel{
   background-color: white;
-  padding: 0 20px 0 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .filter-option{
   /* border:1px solid pink; */
-  /* width: 220px; */
-  /* flex: 1; */
-  /* margin-right: 10px; */
-  padding: 0 20px 0 0px;
-  /* background-color: red; */
-  /* border-right: 1px solid gray; */
+  width: 250px;
+  cursor: pointer;
+  padding: 10px 20px 0px 0px;
+}
+
+.filter-option:hover .list-options{
+  display: block;
 }
 
 .border{
@@ -126,8 +169,3 @@ a:hover li {
   /* width: 150px; */
 }
 
-.item-price{
-  color:#7065f0;
-  font-size: 30px;
-  font-weight: bold;
-}

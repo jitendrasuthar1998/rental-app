@@ -323,7 +323,8 @@ const propertyData = [
 
 const propertyType = ["houses", "apartment", "villa"]
 const moveIn = ["immediate", "in 1 day", "in 2-5 days", "in next week"]
-const price = [500, 5000]
 const city = ["California", "New York", "Texas", "Florida"]
+const price = [500, 5000]
+
 
 export default propertyData;
