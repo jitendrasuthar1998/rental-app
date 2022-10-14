@@ -6,14 +6,6 @@ export default function App() {
 
   const [selectItem, setSelectedItem] = useState("Select social media");
   
-
-  // return (
-  //   <div className='hero'>
-  //     <SelectItem id="first"/>
-  //     <SelectItem id="second"/>
-  //   </div>
-  // )
-
   return(
     <RentalApp/>
   )

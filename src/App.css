@@ -1,42 +1,38 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 li {
   list-style: none;
   padding: 15px 30px 15px 30px;
-  /* border:1px solid green; */
   border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  /* width: 200px; */
 }
 
 .list-options {
-  display: none;
   position: absolute;
   z-index: 5;
   background-color: white;
-  /* border: 1px solid royalblue; */
   transition: 0.5s ease;
-  /* margin-top: 3px; */
+  margin-top: 3px;
   border-top: 1px solid grey;
   border-radius: 7px;
   box-shadow: inset#7065f0;
   cursor: pointer;
 }
 
-.list-options li{
+.list-options li {
   border-radius: 0px;
 }
 
-.list-options li:hover{
+.list-options li:hover {
   background-color: #e8e7f8;
 }
 
-nav li .down-icon{
+nav li .down-icon {
   margin-left: 5px;
 }
 
@@ -45,37 +41,41 @@ a {
   color: black
 }
 
-nav{
+nav {
   background-color: #fafbff;
-  flex-direction: row; 
+  flex-direction: row;
   display: flex;
-  justify-content: center; 
   align-items: center;
-  padding:20px;
+  padding: 20px;
   flex-wrap: wrap;
 }
 
-.logo{
-  width: 20%;
-  justify-content: center; 
+.main-section {
+  padding-right: 10%;
+  padding-left: 10%;
+  background-color: #f6f7fc;
+}
+
+.logo {
+  width: 30%;
+  justify-content: center;
   padding-left: 30px;
   align-items: center;
 }
 
-h1, h3{
-  margin:10px 0 10px 0;
+h1,
+h3 {
+  margin: 10px 0 10px 0;
   padding: none;
 }
 
-.logo{
+.logo {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   padding-left: 30px;
-  /* align-items: center; */
-  /* border:1px solid burlywood; */
 }
 
-.logo span{
+.logo span {
   margin-right: 10px;
   margin-top: 5px;
 }
@@ -86,8 +86,7 @@ h1, h3{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid red; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .btn-container {
@@ -95,41 +94,39 @@ h1, h3{
   flex-direction: row;
   display: flex;
   justify-content: flex-end;
-  /* align-items: center; */
-  /* border: 1px solid orange; */
 }
 
 .button {
   margin-left: 20px;
   font-size: 16px;
-  padding: 10px 20px 10px 20px; 
+  padding: 10px 20px 10px 20px;
   border-radius: 5px;
-  border: .5px solid #7065f0; 
+  border: .5px solid #7065f0;
 }
 
-.login-btn{
+.login-btn {
   background-color: white;
   cursor: pointer;
 }
 
-.selected{
-  background-color:#7065f0;
+.selected {
+  background-color: #7065f0;
   color: white;
 }
 
-.login-btn:hover{
+.login-btn:hover {
   background-color: #e8e7f8;
-  color:#7065f0;
+  color: #7065f0;
   border: 0px;
 }
 
-.signup-btn{
+.signup-btn {
   background-color: #7065f0;
-  color:white;
+  color: white;
   cursor: pointer;
 }
 
-.signup-btn:hover{
+.signup-btn:hover {
   background-color: blueviolet;
   /* border: 1px solid red; */
 }
@@ -139,7 +136,7 @@ li:hover {
   color: #7065f0;
 }
 
-.filter-panel{
+.filter-panel {
   background-color: white;
   padding: 20px;
   display: flex;
@@ -149,39 +146,29 @@ li:hover {
   flex-wrap: wrap;
 }
 
-.filter-option{
-  /* border:1px solid pink; */
-  /* width: 250px; */
-  /* flex:0.8; */
+.filter-option {
   cursor: pointer;
   padding: 10px 20px 0px 0px;
 }
 
-.filter-option:hover .list-options{
-  display: block;
-}
-
-.border{
+.border {
   height: 60px;
-  border:1px solid #e8e7f8;
-  /* width: 1px; */
+  border: 1px solid #e8e7f8;
   background-color: #e8e7f8;
   width: 1px;
   margin-left: 40px;
 }
 
-.attribute{
-  /* border: 1px solid violet; */
+.attribute {
   justify-content: center;
   align-items: center;
   display: flex;
-  /* width: 150px; */
 }
 
-.property-item-container{
-  margin: 40px; 
-  display: grid; 
-  grid-template-columns:400px 400px 400px 400px;
+.property-item-container {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px;
   align-items: center;
   justify-content: center;
   column-gap: 40px;
@@ -190,19 +177,19 @@ li:hover {
 
 
 @media screen and (max-width: 1800px) {
-  .property-item-container{
-    grid-template-columns:400px 400px 400px;
-  } 
+  .property-item-container {
+    grid-template-columns: 400px 400px 400px;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-  .property-item-container{
-    grid-template-columns:400px 400px;
-  } 
+  .property-item-container {
+    grid-template-columns: 400px 400px;
+  }
 }
 
 @media screen and (max-width: 900px) {
-  .property-item-container{
-    grid-template-columns:400px;
-  } 
+  .property-item-container {
+    grid-template-columns: 300px;
+  }
 }
